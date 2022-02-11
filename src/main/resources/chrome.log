@@ -1,0 +1,365 @@
+[1644522462.341][INFO]: Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 53687
+[1644522462.341][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1644522462.624][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1644522462.626][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1644522462.626][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1644522462.627][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/fl/dsw8xv_9569bzqw763zm0nbm0000gp/T/.com.google.Chrome.bm3Uwo data:,
+[1644522464.229][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1644522464.251][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "98.0.4758.80",
+      "chrome": {
+         "chromedriverVersion": "98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972})",
+         "userDataDir": "/var/folders/fl/dsw8xv_9569bzqw763zm0nbm0000gp/T/.com.google.Chrome.bm3Uwo"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58544"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "1888484345033f872c9b13c1dbdaf181"
+}
+[1644522464.440][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND Navigate {
+   "url": "https://banking.firsttechfed.com/authentication"
+}
+[1644522464.449][INFO]: Waiting for pending navigations...
+[1644522464.450][INFO]: Done waiting for pending navigations. Status: ok
+[1644522465.250][INFO]: Waiting for pending navigations...
+[1644522466.813][INFO]: Done waiting for pending navigations. Status: ok
+[1644522466.813][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE Navigate
+[1644522466.821][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1644522466.821][INFO]: Waiting for pending navigations...
+[1644522467.083][INFO]: Done waiting for pending navigations. Status: ok
+[1644522467.088][INFO]: Waiting for pending navigations...
+[1644522467.129][INFO]: Done waiting for pending navigations. Status: ok
+[1644522467.129][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE ExecuteScript "\u003Chtml lang=\"en-US\" class=\"default js-focus-visible\">\u003Chead>\u003Cstyle>body {transition: opacity ease-in 0.2s; } \nbody[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } \n\u003C/..."
+[1644522467.230][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND GetCookies {
+
+}
+[1644522467.230][INFO]: Waiting for pending navigations...
+[1644522467.394][INFO]: Done waiting for pending navigations. Status: ok
+[1644522467.403][INFO]: Waiting for pending navigations...
+[1644522467.404][INFO]: Done waiting for pending navigations. Status: ok
+[1644522467.404][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE GetCookies [ {
+   "domain": ".firsttechfed.com",
+   "expiry": 1676058467,
+   "httpOnly": false,
+   "name": "cdSNum",
+   "path": "/",
+   "secure": false,
+   "value": "1644522467167-sjn0000415-f554ea45-0863-4726-b1bd-03d213c6fe74"
+}, {
+   "domain": "banking.firsttechfed.com",
+   "httpOnly": true,
+   "name": "PackageAssignment",
+   "path": "/",
+   "sameSite": "Strict",
+   "secure": true,
+   "value": ""
+}, {
+   "domain": ".firsttechfed.com",
+   "expiry": 1676058465,
+   "httpOnly": false,
+   "name": "bmuid",
+   "path": "/",
+   "secure": false,
+   "value": "1644522465650-C19AA23E-8C2B-493F-84CE-B90925DA30A4"
+}, {
+   "domain": "banking.firsttechfed.com",
+   "httpOnly": true,
+   "name": "ob_rea",
+   "path": "/",
+   "sameSite": "Strict",
+   "secure": true,
+   "value": "https://banking.firsttechfed.com/"
+}, {
+   "domain": ".firsttechfed.com",
+   "httpOnly": false,
+   "name": "cdContextId",
+   "path": "/",
+   "secure": false,
+   "value": "2"
+}, {
+   "domain": ".firsttechfed.com",
+   "expiry": 1644524267,
+   "httpOnly": true,
+   "name": "__cf_bm",
+   "path": "/",
+   "sameSite": "None",
+   "secure": true,
+   "value": "5OB06vFGEN.nTLejZc5Gs5_CCENcKvxnL4Upk9MpD1o-1644522467-0-AeZis/FjYGNDmwNW+hk7fG5CCGyr8sKP3ALw/MpE7NE8raiZIVoSEThao6xhU9xC5mqB0j+jMMdAs5QSu5754qbCRYrD/BzlD/j/Ur7izCXPCwRUML628BdrMZe/0g6hM6APJbeTl096..."
+}, {
+   "domain": "banking.firsttechfed.com",
+   "httpOnly": true,
+   "name": "ob_sess",
+   "path": "/",
+   "sameSite": "Strict",
+   "secure": true,
+   "value": "M0RGRDAyRDIwN0ZGN0NFQjI1NTA5Rjk5ZTZjNjczYTViZDkyNzgwZjZhNmVkYjFlZDJmN2M0M2Y="
+} ]
+[1644522485.491][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#username"
+}
+[1644522485.492][INFO]: Waiting for pending navigations...
+[1644522485.492][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.501][INFO]: Waiting for pending navigations...
+[1644522485.502][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.502][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e03e70cc-3cb3-4785-8f68-9e497b66b077"
+}
+[1644522485.509][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND TypeElement {
+   "id": "e03e70cc-3cb3-4785-8f68-9e497b66b077",
+   "text": "dsa",
+   "value": [ "d", "s", "a" ]
+}
+[1644522485.509][INFO]: Waiting for pending navigations...
+[1644522485.510][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.607][INFO]: Waiting for pending navigations...
+[1644522485.613][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.613][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE TypeElement
+[1644522485.617][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#password"
+}
+[1644522485.617][INFO]: Waiting for pending navigations...
+[1644522485.618][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.625][INFO]: Waiting for pending navigations...
+[1644522485.625][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.625][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d4adfb8e-928a-4ad5-ae8d-415b79507e5e"
+}
+[1644522485.630][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND TypeElement {
+   "id": "d4adfb8e-928a-4ad5-ae8d-415b79507e5e",
+   "text": "gfdgfdg*",
+   "value": [ "g", "f", "d", "g", "f", "d", "g", "*" ]
+}
+[1644522485.630][INFO]: Waiting for pending navigations...
+[1644522485.631][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.715][INFO]: Waiting for pending navigations...
+[1644522485.721][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.721][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE TypeElement
+[1644522485.726][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND SetTimeouts {
+   "implicit": 5000
+}
+[1644522485.726][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE SetTimeouts
+[1644522485.730][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#btn_submitCredentials"
+}
+[1644522485.730][INFO]: Waiting for pending navigations...
+[1644522485.731][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.739][INFO]: Waiting for pending navigations...
+[1644522485.739][INFO]: Done waiting for pending navigations. Status: ok
+[1644522485.740][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "710792e0-de95-4dac-91e0-0a39e46a997a"
+}
+[1644522485.744][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "710792e0-de95-4dac-91e0-0a39e46a997a"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1644522485.745][INFO]: Waiting for pending navigations...
+[1644522485.745][INFO]: Done waiting for pending navigations. Status: ok
+[1644522486.708][INFO]: Waiting for pending navigations...
+[1644522486.711][INFO]: Done waiting for pending navigations. Status: ok
+[1644522486.711][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE ExecuteScript null
+[1644522486.715][INFO]: [1888484345033f872c9b13c1dbdaf181] COMMAND GetLog {
+   "type": "browser"
+}
+[1644522486.716][INFO]: [1888484345033f872c9b13c1dbdaf181] RESPONSE GetLog [ {
+   "level": "WARNING",
+   "message": "https://bcdn.firsttechfed.com/scripts/1e027846/1e027846.js 10 The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu",
+   "source": "other",
+   "timestamp": 1.644522465647e+12
+}, {
+   "level": "SEVERE",
+   "message": "https://banking.firsttechfed.com/fonts/interstate-bold-webfont.woff - Failed to load resource: the server responded with a status of 404 ()",
+   "source": "network",
+   "timestamp": 1.644522465994e+12
+}, {
+   "level": "SEVERE",
+   "message": "https://banking.firsttechfed.com/fonts/interstate-regular-webfont.woff - Failed to load resource: the server responded with a status of 404 ()",
+   "source": "network",
+   "timestamp": 1.644522466562e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfield) is deprecated. Refer to the component documentation and use ele...",
+   "source": "console-api",
+   "timestamp": 1.644522467338e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfieldPassword) is deprecated. Refer to the component documentation and...",
+   "source": "console-api",
+   "timestamp": 1.644522467338e+12
+}, {
+   "level": "WARNING",
+   "message": "https://banking.firsttechfed.com/Orbital/FirstTechFCU/favicons/site.webmanifest - Manifest: property 'theme_color' ignored, 'true' is not a valid color.",
+   "source": "other",
+   "timestamp": 1.644522485491e+12
+}, {
+   "level": "WARNING",
+   "message": "https://banking.firsttechfed.com/Orbital/FirstTechFCU/favicons/site.webmanifest - Manifest: property 'background_color' ignored, 'true' is not a valid color.",
+   "source": "other",
+   "timestamp": 1.644522485491e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfield) is deprecated. Refer to the component documentation and use ele...",
+   "source": "console-api",
+   "timestamp": 1.644522485583e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfieldPassword) is deprecated. Refer to the component documentation and...",
+   "source": "console-api",
+   "timestamp": 1.644522485602e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfield) is deprecated. Refer to the component documentation and use ele...",
+   "source": "console-api",
+   "timestamp": 1.644522485602e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfieldPassword) is deprecated. Refer to the component documentation and...",
+   "source": "console-api",
+   "timestamp": 1.644522485603e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfield) is deprecated. Refer to the component documentation and use ele...",
+   "source": "console-api",
+   "timestamp": 1.644522485603e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfieldPassword) is deprecated. Refer to the component documentation and...",
+   "source": "console-api",
+   "timestamp": 1.644522485606e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfield) is deprecated. Refer to the component documentation and use ele...",
+   "source": "console-api",
+   "timestamp": 1.644522485606e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfieldPassword) is deprecated. Refer to the component documentation and...",
+   "source": "console-api",
+   "timestamp": 1.644522485669e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfield) is deprecated. Refer to the component documentation and use ele...",
+   "source": "console-api",
+   "timestamp": 1.644522485669e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfieldPassword) is deprecated. Refer to the component documentation and...",
+   "source": "console-api",
+   "timestamp": 1.64452248568e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfield) is deprecated. Refer to the component documentation and use ele...",
+   "source": "console-api",
+   "timestamp": 1.64452248568e+12
+}, {
+   "level": "WARNING",
+   "message": "https://iris.alkamitech.com/cdn/iris-vue@official/iris-vue.umd.min.js 7:1418 \"WARNING: The id prop for this component (IrisTextfieldPassword) is deprecated. Refer to the component documentation and...",
+   "source": "console-api",
+   "timestamp": 1.644522485685e+12
+}, "..." ]
